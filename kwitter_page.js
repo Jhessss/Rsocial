@@ -1,13 +1,12 @@
-var firebaseConfig = {
-    apiKey: "AIzaSyBQyjrjTsIQsGMGcgu-cr1HjszcHi5ZWMk",
-    authDomain: "testkwitter.firebaseapp.com",
-    databaseURL: "https://testkwitter.firebaseio.com",
-    projectId: "testkwitter",
-    storageBucket: "testkwitter.appspot.com",
-    messagingSenderId: "624653701634",
-    appId: "1:624653701634:web:2cb9a8bd873f17d92d8d1b"
-  };
-  
+const firebaseConfig = {
+  apiKey: "AIzaSyAOLkNEZgRouyM6O6UVRBb4EksyB8Ez0zM",
+  authDomain: "atvprat.firebaseapp.com",
+  databaseURL: "https://atvprat-default-rtdb.firebaseio.com",
+  projectId: "atvprat",
+  storageBucket: "atvprat.appspot.com",
+  messagingSenderId: "15541879401",
+  appId: "1:15541879401:web:9b30fbacd86233cea2d8f8"
+};
   
     firebase.initializeApp(firebaseConfig);
       user_name = localStorage.getItem("user_name");
